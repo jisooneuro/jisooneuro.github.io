@@ -32,14 +32,14 @@ site_theme               : "mint" # The available themes options are "default", 
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  avatar           : "jisookim.jpeg"
+  name             : "Jisoo Kim"
+  pronouns         : "she/her"  
+ # bio              : "Short biography for the left-hand sidebar"
   location         : "Cambridge, UK"
   employer         : "University of Cambridge"
-  uri              : # URL
-  email            : "none@example.org" 
+ # uri              : # URL
+  email            : "jk838@cam.ac.uk" 
 
   # Academic websites
   academia         : # URL
