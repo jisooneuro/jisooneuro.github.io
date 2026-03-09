@@ -1,4 +1,27 @@
 ---
+layout: archive
+title: "About"
+permalink: /
+author_profile: true
+---
+
+I am a PhD student interested in visual processing.
+
+My research focuses on understanding the distinct roles of the primary visual cortex (V1) and superior colliculus (SC) in visually guided behavior in freely moving mice. I use electrophysiology, optogenetics, and behavioral analysis to study how neural circuits contribute to visual detection.
+
+## Research Interests
+- Visual neuroscience
+- Superior colliculus and visual cortex
+- Electrophysiology
+
+## Links
+- [CV](/files/CV.pdf)
+- [GitHub](https://github.com/jisooneuro)
+- [Google Scholar](#)
+
+"""
+
+---
 permalink: /
 title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
 author_profile: true
@@ -54,3 +77,5 @@ Example: editing a Markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+"""
