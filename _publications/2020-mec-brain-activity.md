@@ -10,5 +10,5 @@ citation: '**Kim J**\*, Kim C, Han HB, Jun J, Yeom W, Lee SQ\*, Choi JH\*. (2020
 ---
 
 <p align="center">
-<img src="/images/SA.gif" width="300">
+<img src="/images/SA.gif" style="max-width:300px;">
 </p>
