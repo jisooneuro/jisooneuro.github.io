@@ -18,21 +18,32 @@ You can also find my publications on <a href="{{ site.author.googlescholar }}">G
 
 {% for post in site.publications reversed %}
   {% if post.category == "selected" %}
-    <p>
-      <strong>{{ post.title }}</strong><br>
-      {{ post.venue }}, {{ post.date | date: "%Y" }}
-    </p>
+
+    <div style="margin-bottom:40px;">
+
+      <p>
+        <strong>{{ post.title }}</strong><br>
+        {{ post.venue }}, {{ post.date | date: "%Y" }}
+      </p>
+
+      {{ post.content }}
+
+    </div>
+
   {% endif %}
 {% endfor %}
+
 
 <h2>All Publications</h2>
 <hr>
 
 {% for post in site.publications reversed %}
-  <p>
-    <strong>{{ post.title }}</strong><br>
-    {{ post.venue }}, {{ post.date | date: "%Y" }}
-  </p>
+
+  <div style="margin-bottom:20px;">
+    <p>
+      <strong>{{ post.title }}</strong><br>
+      {{ post.venue }}, {{ post.date | date: "%Y" }}
+    </p>
+  </div>
+
 {% endfor %}
-
-
