@@ -13,21 +13,24 @@ You can also find my publications on
 {% endif %}
 
 {% include base_path %}
-
 <h2>Selected Publications</h2>
 <hr>
+
+<p style="font-size:0.9em; color:#666;">
+* indicates equal contribution
+</p>
 
 {% for post in site.publications reversed %}
 {% if post.category == "selected" %}
 
 <div style="display:flex; align-items:flex-start; gap:25px; margin-bottom:40px;">
 
-  <!-- Left side: image / video -->
+  <!-- Left: image / video -->
   <div style="flex:0 0 320px;">
     {{ post.content }}
   </div>
 
-  <!-- Right side: text -->
+  <!-- Right: citation -->
   <div style="flex:1;">
 
     <p style="margin-top:0;">
