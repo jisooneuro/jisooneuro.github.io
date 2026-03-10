@@ -1,6 +1,7 @@
 ---
 title: "Mouse Escape Behaviors and mPFC-BLA Activity Dataset: Understanding Flexible Defensive Strategies Under Threat"
 collection: publications
+category: manuscripts
 permalink: /publication/2024-mpfc-bla-dataset
 date: 2024-01-01
 venue: "Scientific Data"
