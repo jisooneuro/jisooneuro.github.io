@@ -11,4 +11,4 @@ citation: "**Kim J***, Kim C, Han HB, Jun J, Yeom W, Lee SQ*, Choi JH*. (2020). 
 
 [Journal link](https://doi.org/10.1126/sciadv.abb9841)
 
-![Graphical summary](/images/sc_v1_detection.jpg)
+<img src="/images/sa.png" width="450">
