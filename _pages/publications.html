@@ -17,30 +17,39 @@ You can also find my publications on <a href="{{ site.author.googlescholar }}">G
 <hr>
 
 {% for post in site.publications reversed %}
-  {% if post.category == "selected" %}
+{% if post.category == "selected" %}
 
-  <div style="margin-bottom:40px;">
+<div style="display:flex; align-items:flex-start; gap:25px; margin-bottom:40px;">
 
-    <p>
+  <div style="flex:0 0 320px;">
+    {{ post.content }}
+  </div>
+
+  <div style="flex:1;">
+    <p style="margin-top:0;">
       {{ post.citation | markdownify }}
     </p>
 
-    {{ post.content }}
-
+    {% if post.paperurl %}
+    <p>
+      <a href="{{ post.paperurl }}">Journal link</a>
+    </p>
+    {% endif %}
   </div>
 
-  {% endif %}
+</div>
+
+{% endif %}
 {% endfor %}
+
 
 <h2>All Publications</h2>
 <hr>
 
 {% for post in site.publications reversed %}
 
-<div style="margin-bottom:20px;">
-  <p>
-    {{ post.citation | markdownify }}
-  </p>
+<div style="margin-bottom:18px;">
+  {{ post.citation | markdownify }}
 </div>
 
 {% endfor %}
