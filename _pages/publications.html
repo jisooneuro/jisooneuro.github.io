@@ -26,6 +26,8 @@ You can also find my publications on <a href="{{ site.author.googlescholar }}">G
         {{ post.venue }}, {{ post.date | date: "%Y" }}
       </p>
 
+      <p>{{ post.citation | markdownify }}</p>
+
       {{ post.content }}
 
     </div>
@@ -41,7 +43,8 @@ You can also find my publications on <a href="{{ site.author.googlescholar }}">G
   <div style="margin-bottom:20px;">
     <p>
       <strong>{{ post.title }}</strong><br>
-      {{ post.venue }}, {{ post.date | date: "%Y" }}
+      {{ post.venue }}, {{ post.date | date: "%Y" }}<br>
+      {{ post.citation | markdownify }}
     </p>
   </div>
 
