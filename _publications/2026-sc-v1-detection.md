@@ -9,9 +9,8 @@ paperurl: "https://doi.org/10.1016/j.cub.2026.01.077"
 citation: "**Kim J**, Beltramo R, Poort J. (2026). Contributions of superior colliculus and primary visual cortex to visual spatial detection in freely moving mice. **Current Biology**."
 ---
 
-[Journal link](https://doi.org/10.1016/j.cub.2026.01.077)
-
-<img src="/images/sc_v1_detection.jpg" width="450">
-
+<p align="center">
+  <img src="/images/sc_v1_detection.jpg" width="300">
+</p>
 
 
