@@ -7,7 +7,8 @@ author_profile: true
 
 {% if site.author.googlescholar %}
 <div class="wordwrap">
-You can also find my publications on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+You can also find my publications on 
+<a href="{{ site.author.googlescholar }}">Google Scholar</a>.
 </div>
 {% endif %}
 
@@ -21,20 +22,24 @@ You can also find my publications on <a href="{{ site.author.googlescholar }}">G
 
 <div style="display:flex; align-items:flex-start; gap:25px; margin-bottom:40px;">
 
+  <!-- Left side: image / video -->
   <div style="flex:0 0 320px;">
     {{ post.content }}
   </div>
 
+  <!-- Right side: text -->
   <div style="flex:1;">
+
     <p style="margin-top:0;">
+      <a href="{{ post.paperurl }}" style="font-weight:600; font-size:1.1em;">
+        {{ post.title }}
+      </a>
+    </p>
+
+    <p>
       {{ post.citation | markdownify }}
     </p>
 
-    {% if post.paperurl %}
-    <p>
-      <a href="{{ post.paperurl }}">Journal link</a>
-    </p>
-    {% endif %}
   </div>
 
 </div>
@@ -42,14 +47,21 @@ You can also find my publications on <a href="{{ site.author.googlescholar }}">G
 {% endif %}
 {% endfor %}
 
-
 <h2>All Publications</h2>
 <hr>
 
 {% for post in site.publications reversed %}
 
 <div style="margin-bottom:18px;">
+
+  <a href="{{ post.paperurl }}" style="font-weight:600;">
+    {{ post.title }}
+  </a>
+
+  <br>
+
   {{ post.citation | markdownify }}
+
 </div>
 
 {% endfor %}
