@@ -39,6 +39,10 @@ Jun 2024 – Aug 2024
 
 - Decoded emotion from human EEG using unsupervised and supervised learning
 
+<p align="center">
+<img src="/images/neuroai.png" width="450">
+</p>
+
 **Korea Institute of Science and Technology (KIST)**  
 Graduate Researcher  
 Dec 2017 – Aug 2020
