@@ -1,6 +1,7 @@
 ---
 title: "Dynamic switching of neural oscillations in the prefrontal–amygdala circuit for naturalistic freeze-or-flight"
 collection: publications
+category: manuscripts
 permalink: /publication/2023-freeze-flight
 date: 2023-01-01
 venue: "PNAS"
