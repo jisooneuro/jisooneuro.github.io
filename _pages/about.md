@@ -15,5 +15,5 @@ My research focuses on understanding the distinct roles of the primary visual co
 - Electrophysiology
 
 ## Links
-- [CV](/files/CV_jisooKim_cosyne.pdf)
+- [CV](/files/CV_jisooKim.pdf)
 - [Google Scholar](https://scholar.google.com/citations?user=lSgjJyQAAAAJ&hl=en&oi=sra)
