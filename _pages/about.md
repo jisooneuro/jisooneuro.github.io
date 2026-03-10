@@ -14,8 +14,7 @@ My long-term goal is to develop computational models of visual circuits that bri
 ## Research Interests
 - Blindsight
 - Visual neuroscience
-- Superior colliculus
-- Visual cortex
+- Superior colliculus and Visual cortex
 - Computational Neuroscience
 - NeuroAI
 
