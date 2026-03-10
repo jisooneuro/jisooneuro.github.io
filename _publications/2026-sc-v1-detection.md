@@ -11,6 +11,7 @@ citation: "**Kim J**, Beltramo R, Poort J. (2026). Contributions of superior col
 
 [Journal link](https://doi.org/10.1016/j.cub.2026.01.077)
 
-![Graphical summary](/images/sc_v1_detection.jpg)
+<img src="/images/sc_v1_detection.jpg" width="450">
+
 
 
