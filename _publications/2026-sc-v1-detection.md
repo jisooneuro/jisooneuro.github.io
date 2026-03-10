@@ -10,7 +10,5 @@ citation: "**Kim J**, Beltramo R, Poort J. (2026). Contributions of superior col
 ---
 
 <p align="center">
-  <img src="/images/sc_v1_detection.jpg" width="300">
+<img src="/images/sc_v1_detection.jpg" width="300">
 </p>
-
-
