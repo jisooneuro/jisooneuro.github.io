@@ -37,25 +37,23 @@ My long-term goal is to develop computational models of visual circuits that bri
 {% for post in site.publications reversed %}
 {% if post.category == "selected" %}
 
-<div style="display:flex; align-items:flex-start; gap:25px; margin-bottom:40px;">
+<div style="margin-bottom:40px;">
 
-<div style="flex:0 0 320px;">
-{{ post.content }}
-</div>
+  <!-- Text / Citation first -->
+  <p style="margin-top:0; font-weight:600; font-size:1.1em;">
+    <a href="{{ post.paperurl }}">
+      {{ post.title }}
+    </a>
+  </p>
 
-<div style="flex:1;">
+  <p>
+    {{ post.citation | markdownify }}
+  </p>
 
-<p style="margin-top:0;">
-<a href="{{ post.paperurl }}" style="font-weight:600; font-size:1.1em;">
-{{ post.title }}
-</a>
-</p>
-
-<p>
-{{ post.citation | markdownify }}
-</p>
-
-</div>
+  <!-- Image / video below -->
+  <div style="margin-top:15px;">
+    {{ post.content }}
+  </div>
 
 </div>
 
