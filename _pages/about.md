@@ -84,8 +84,6 @@ My long-term goal is to develop computational models of visual circuits that bri
 
 ---
 
-# CV
-
 ## Education
 
 **PhD in Neuroscience**  
