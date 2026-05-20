@@ -4,7 +4,8 @@ title: "About"
 permalink: /
 author_profile: true
 ---
-![Research](/assets/research.gif)
+![Research](/files/research.gif)
+- [Research](/files/research.gif)
 
 I am a PhD candidate in Neuroscience at the **University of Cambridge**, working in the Selective Vision Lab under the supervision of **Jasper Poort**.
 
